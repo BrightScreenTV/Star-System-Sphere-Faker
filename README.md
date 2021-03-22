@@ -19,7 +19,7 @@ In the above image, the player's sprite is the small, white dot in front of the 
 
 The textures for the spheres are just large png's that are all clear but with white dots. Each sphere has a different material and hence, texture.
 
-As the player moves, an equal (if that's the right way of explaining it) and opposite force in the form of torque is applied to the game object that holds all three spheres (and which itself, is a child of the player). The camera is positioned and has a FOV that just captures all three spheres behind the player. As the parent object rotates due to the torque, the spheres rotate at what appears to be different speeds (because of their relative size differnces) and so there is the appearance of stars zooming behind the player and at different speeds due to their distance from the camera.
+As the player moves, an equal (if that's the right way of explaining it) and opposite force in the form of torque is applied to the game object that holds all three spheres (and which itself, is a child of the player). The camera is positioned and has a FOV that just captures all three spheres behind the player. As the parent object rotates due to the torque, the spheres rotate at what appears to be different speeds (because of their relative size differences) and so there is the appearance of stars zooming behind the player and at different speeds due to their distance from the camera.
 
 It's not perfect, but I really like the effect it produces and it does mean there's very few extra objects in the game to create this illusion.
 
